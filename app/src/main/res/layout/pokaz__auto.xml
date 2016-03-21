@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center|top">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:gravity="center|top">
+
+<ImageView
+    android:layout_width="260dp"
+    android:layout_height="160dp"
+    android:src="@drawable/f1"
+    android:id="@+id/opis_image_view"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nazwa_auta"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ffff0300"
+        android:paddingTop="7dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/nazwa_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:columnCount="2"
+        android:rowCount="7"
+        android:paddingTop="15dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silnik"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/silnik_text_view"
+            android:id="@+id/silnik_text_view"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pojemność"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pojemnosc_text_view"
+            android:id="@+id/pojemnosc_text_view"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moc"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moc_text_view"
+            android:textColor="#ffffff"
+            android:id="@+id/moc_text_view"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moment obrotowy"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moment_text_view"
+            android:id="@+id/moment_text_view"
+            android:textColor="#ffffff"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0-100km/h"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acc_text_view"
+            android:id="@+id/acc_text_view"
+            android:layout_marginRight="80dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V-max"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vmax_text_view"
+            android:id="@+id/vmax_text_view"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masa"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/masa_text_view"
+            android:textColor="#ffffff"
+            android:id="@+id/masa_text_view"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+
+
+
+        </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/landscape_fragment"
+        android:name="com.example.pazera.katalogferrari.LandscapeFragment"
+        tools:layout="@layout/landscape_fragment" />
+
+
+
+</LinearLayout>

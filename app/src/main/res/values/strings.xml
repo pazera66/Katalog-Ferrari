@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KatalogFerrari</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nazwa_auta">nazwa_auta</string>
+    <string name="silnik_text_view">Silnik_text_view</string>
+    <string name="pojemnosc_text_view">pojemnosc_text_view</string>
+    <string name="moc_text_view">Moc_text_view</string>
+    <string name="moment_text_view">moment_text_view</string>
+    <string name="acc_text_view">100_text_view</string>
+    <string name="vmax_text_view">vmax_text_view</string>
+    <string name="masa">masa_text_view</string>
+    <string name="skrzynia_text_view">skrzynia_text_view</string>
+    <string name="naped_text_view">naped_text_view</string>
+    <string name="masa_text_view">masa_text_view</string>
+
+</resources>
